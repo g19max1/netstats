@@ -55,7 +55,7 @@ $autoload['packages'] = array();
   |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
  */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('OAuth', 'session', 'twitterlib');
 
 
 /*
@@ -113,17 +113,6 @@ $autoload['language'] = array();
  */
 
 $autoload['model'] = array();
-
-/*
-  | -------------------------------------------------------------------
-  |  Auto-load Models
-  | -------------------------------------------------------------------
-  | Prototype:
-  |
-  |	$autoload['libraries'] = array('OAuth', 'session');
-  |
- */
-$autoload['libraries'] = array('OAuth', 'session');
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
