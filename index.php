@@ -6,8 +6,7 @@
     </head>
     <body>
         <?php
-        // put your code here
-        //lalalasdfsdf
+        // put your code here (But not really)
         ?>
     </body>
 </html>
