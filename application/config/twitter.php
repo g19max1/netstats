@@ -3,8 +3,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 // required only for streaming api
-$config['user'] = 'twitter-username';
-$config['pass'] = 'twitter-password';
+$config['user'] = 'plawsonn';
+$config['pass'] = 'Charlotte0-';
 
 //required only for api v1.1 search
 $config['twitter_consumer_token'] = 'TRqhKdSga4OtHb9tOBOPRw';

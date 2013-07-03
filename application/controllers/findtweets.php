@@ -16,7 +16,6 @@ class FindTweets extends CI_Controller {
         parent::__construct();
         // set maximum execution time to infinity
         set_time_limit(0);
-        $this->load->library('twitterlib');
     }
 
     // stream tweets from twitter livestream
