@@ -55,7 +55,7 @@ $autoload['packages'] = array();
   |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
  */
 
-$autoload['libraries'] = array('OAuth', 'session', 'twitterlib');
+$autoload['libraries'] = array('session', 'twitterlib', 'twitteroauth');
 
 
 /*
