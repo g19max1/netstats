@@ -1,0 +1,7 @@
+{
+    "name": "Parker Lawson",
+    "require": {
+        "league/oauth2-server": "2.*"
+    }
+
+}
