@@ -312,7 +312,7 @@
 <div id="sidebar-left" class="span1">
     <div class="nav-collapse sidebar-nav">
         <ul class="nav nav-tabs nav-stacked main-menu">
-            <li><a href="<?php echo(THEME_PATH); ?>index.html"><i class="fa-icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
+            <li><a href="/netstats"><i class="fa-icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
             <li><a href="<?php echo(THEME_PATH); ?>infrastructure.html"><i class="fa-icon-hdd"></i><span class="hidden-tablet"> Infrastructure</span></a></li>
             <li><a href="<?php echo(THEME_PATH); ?>messages.html"><i class="fa-icon-envelope"></i><span class="hidden-tablet"> Messages</span></a></li>
             <li><a href="<?php echo(THEME_PATH); ?>tasks.html"><i class="fa-icon-tasks"></i><span class="hidden-tablet"> Tasks</span></a></li>
