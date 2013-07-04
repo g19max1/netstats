@@ -173,5 +173,5 @@ class Twitter extends CI_Controller
 	}
 }
 
-/* End of file twitter.php */
-/* Location: ./application/controllers/twitter.php */
+/* End of file twitter_ctrl.php */
+/* Location: ./application/controllers/twitter_ctrl.php */

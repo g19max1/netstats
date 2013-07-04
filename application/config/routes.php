@@ -41,7 +41,7 @@ if (!defined('BASEPATH'))
   |
  */
 
-$route['default_controller'] = "findtweets";
+$route['default_controller'] = "stats_ctrl";
 $route['404_override'] = '';
 
 

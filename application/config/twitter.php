@@ -12,5 +12,5 @@ $config['twitter_consumer_secret'] = 'B6cDIPw2KUDpG1ONWRhvirEB5t0sJbZHn348TPl7YE
 $config['twitter_access_token'] = '455825641-GJEDJrubK0ClaswI7eKZMvbR0LS0B6lMLbTAygzv'; // Optional
 $config['twitter_access_secret'] = '0OwdWCTT2DWgHp9YPjEj1NBI56tf4WLQdO5yDxsSw8'; // Optional
 
-/* End of file twitter.php */
-/* Location: ./application/config/twitter.php */
+/* End of file twitter_ctrl.php */
+/* Location: ./application/config/twitter_ctrl.php */

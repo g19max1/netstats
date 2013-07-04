@@ -46,7 +46,7 @@ class Twitterlib {
      *
      */
     public function stream() {
-        // get user/pass from config/twitter.php
+        // get user/pass from config/twitter_ctrl.php
         $this->CI->config->load('twitter');
         $user = $this->CI->config->item('user');
         $pass = $this->CI->config->item('pass');
@@ -158,7 +158,7 @@ class Twitterlib {
     public function searchone($cachetime = null) {
         // do oauth
         $this->CI->load->library('twitteroauth');
-        // get user/pass from config/twitter.php
+        // get user/pass from config/twitter_ctrl.php
         $this->CI->config->load('twitter');
         $consumer_token = $this->CI->config->item('consumer_token');
         $consumer_secret = $this->CI->config->item('consumer_secret');

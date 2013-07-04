@@ -11,6 +11,16 @@ $database = "lejdesig_netsta";
 $username = "lejdesig_netsta";
 $password = "7RDwPKA6yb92MWdz";
 
+$data = array(
+    'title' => $title,
+    'name' => $name,
+    'date' => $date
+);
+
+$this->db->insert('mytable', $data);
+
+// Produces: INSERT INTO mytable (title, name, date) VALUES ('{$title}', '{$name}', '{$date}')
+
 //Connect to DB
 $Connect = mysql_pconnect($hostname, $username, $password) or trigger_error(mysql_error(),E_USER_ERROR);
 
