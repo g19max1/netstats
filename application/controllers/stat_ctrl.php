@@ -1,6 +1,13 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: Parker Lawson
+ * Date: 7/4/13
+ * Time: 4:01 AM
+ * To change this template use File | Settings | File Templates.
+ */
 
-class Welcome extends CI_Controller {
+class stat_ctrl extends CI_Controller{
 
     /**
      * Index Page for this controller.
@@ -22,6 +29,3 @@ class Welcome extends CI_Controller {
         $this->load->view('stats');
     }
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

@@ -41,8 +41,8 @@ if (!defined('BASEPATH'))
   |
  */
 
-$route['default_controller'] = 'welcome';
-$route['404_override'] = 'stat_ctrl';
+$route['default_controller'] = 'stat_ctrl';
+$route['404_override'] = '';
 
 
 /* End of file routes.php */
