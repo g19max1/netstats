@@ -36,6 +36,15 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
+/*
+|--------------------------------------------------------------------------
+| Custom Constants
+|--------------------------------------------------------------------------
+|
+| Custom Constants
+|
+*/
+define('THEME_PATH','assets/'); //The path to bootstrap themes
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
