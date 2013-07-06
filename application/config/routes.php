@@ -41,7 +41,7 @@ if (!defined('BASEPATH'))
   |
  */
 
-$route['default_controller'] = 'stat_ctrl';
+$route['default_controller'] = 'auth/oauth/twitter';
 $route['404_override'] = '';
 
 
