@@ -26,6 +26,12 @@ class stat_ctrl extends CI_Controller{
      */
     public function index()
     {
-        $this->load->view('stats');
+        var $data;
+        $data[0]=1;
+        $data[1]=2;
+        $data[2]=3;
+        $data[3]=4;
+
+        $this->load->view('stats', $data);
     }
 }
