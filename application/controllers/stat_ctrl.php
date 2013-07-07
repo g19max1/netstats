@@ -24,14 +24,11 @@ class stat_ctrl extends CI_Controller{
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
-    public function index()
-    {
-        var $data;
-        $data[0]=1;
-        $data[1]=2;
-        $data[2]=3;
-        $data[3]=4;
+    public function index() {
 
-        $this->load->view('stats', $data);
+        $this->load->model('ChronModel');
+        $this->ChronModel->addValue();
+        $this->load->view('stats');
+
     }
 }
