@@ -4,7 +4,7 @@
 
     <!-- start: Meta -->
     <meta charset="utf-8">
-    <title><?php echo($data[0]); ?>ACME Dashboard - Perfect Bootstrap Admin Template</title>
+    <title>Rafiki - Social Insight Engine</title>
     <meta name="description" content="ACME Dashboard Bootstrap Admin Template.">
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="ACME, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
