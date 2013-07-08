@@ -20,6 +20,7 @@
     <link href="<?php echo(THEME_PATH); ?>css/style.min.css" rel="stylesheet">
     <link href="<?php echo(THEME_PATH); ?>css/style-responsive.min.css" rel="stylesheet">
     <link href="<?php echo(THEME_PATH); ?>css/retina.css" rel="stylesheet">
+    <link href="<?php echo(THEME_PATH); ?>css/custom.css" rel="stylesheet">
     <!-- end: CSS -->
 
     <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -55,7 +56,7 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
 </a>
-<a class="brand" href="index.html"><span>Acme, Inc</span></a>
+<a class="brand" href="index.html"><span>Rafiki</span></a>
 
 <!-- start: Header Menu -->
 <div class="nav-no-collapse header-nav">
@@ -123,174 +124,13 @@
         </li>
     </ul>
 </li>
-<!-- start: Notifications Dropdown -->
-<li class="dropdown hidden-phone">
-    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-        <i class="halflings-icon white tasks"></i>
-    </a>
-    <ul class="dropdown-menu tasks">
-        <li>
-            <span class="dropdown-menu-title">You have 17 tasks in progress</span>
-        </li>
-        <li>
-            <a href="#">
-										<span class="header">
-											<span class="title">iOS Development</span>
-											<span class="percent"></span>
-										</span>
-                <div class="taskProgress progressSlim progressBlue">80</div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-										<span class="header">
-											<span class="title">Android Development</span>
-											<span class="percent"></span>
-										</span>
-                <div class="taskProgress progressSlim progressBlue">47</div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-										<span class="header">
-											<span class="title">Django Project For Google</span>
-											<span class="percent"></span>
-										</span>
-                <div class="taskProgress progressSlim progressBlue">32</div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-										<span class="header">
-											<span class="title">SEO for new sites</span>
-											<span class="percent"></span>
-										</span>
-                <div class="taskProgress progressSlim progressBlue">63</div>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-										<span class="header">
-											<span class="title">New blog posts</span>
-											<span class="percent"></span>
-										</span>
-                <div class="taskProgress progressSlim progressBlue">80</div>
-            </a>
-        </li>
-        <li>
-            <a class="dropdown-menu-sub-footer">View all tasks</a>
-        </li>
-    </ul>
-</li>
-<!-- end: Notifications Dropdown -->
-<!-- start: Message Dropdown -->
-<li class="dropdown hidden-phone">
-    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-        <i class="halflings-icon white envelope"></i>
-    </a>
-    <ul class="dropdown-menu messages">
-        <li>
-            <span class="dropdown-menu-title">You have 9 messages</span>
-        </li>
-        <li>
-            <a href="#">
-                <span class="avatar"><img src="<?php echo(THEME_PATH); ?>img/avatar.jpg" alt="Avatar"></span>
-										<span class="header">
-											<span class="from">
-										    	Łukasz Holeczek
-										     </span>
-											<span class="time">
-										    	6 min
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="avatar"><img src="<?php echo(THEME_PATH); ?>img/avatar2.jpg" alt="Avatar"></span>
-										<span class="header">
-											<span class="from">
-										    	Megan Abott
-										     </span>
-											<span class="time">
-										    	56 min
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="avatar"><img src="<?php echo(THEME_PATH); ?>img/avatar3.jpg" alt="Avatar"></span>
-										<span class="header">
-											<span class="from">
-										    	Kate Ross
-										     </span>
-											<span class="time">
-										    	3 hours
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="avatar"><img src="<?php echo(THEME_PATH); ?>img/avatar4.jpg" alt="Avatar"></span>
-										<span class="header">
-											<span class="from">
-										    	Julie Blank
-										     </span>
-											<span class="time">
-										    	yesterday
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="avatar"><img src="<?php echo(THEME_PATH); ?>img/avatar5.jpg" alt="Avatar"></span>
-										<span class="header">
-											<span class="from">
-										    	Jane Sanders
-										     </span>
-											<span class="time">
-										    	Jul 25, 2012
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>
-            </a>
-        </li>
-        <li>
-            <a class="dropdown-menu-sub-footer">View all messages</a>
-        </li>
-    </ul>
-</li>
-<!-- end: Message Dropdown -->
-<li>
-    <a class="btn" href="#">
-        <i class="halflings-icon white wrench"></i>
-    </a>
-</li>
 <!-- start: User Dropdown -->
 <li class="dropdown">
     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-        <i class="halflings-icon white user"></i> Łukasz Holeczek
+        <i class="halflings-icon white user"></i> Parker Lawson
         <span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
-        <li><a href="#"><i class="halflings-icon white user"></i> Profile</a></li>
         <li><a href="<?php echo(THEME_PATH); ?>login.html"><i class="halflings-icon white off"></i> Logout</a></li>
     </ul>
 </li>
@@ -306,39 +146,6 @@
 
 <div class="container-fluid">
 <div class="row-fluid">
-
-
-<!-- start: Main Menu -->
-<div id="sidebar-left" class="span1">
-    <div class="nav-collapse sidebar-nav">
-        <ul class="nav nav-tabs nav-stacked main-menu">
-            <li><a href="/netstats"><i class="fa-icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>infrastructure.html"><i class="fa-icon-hdd"></i><span class="hidden-tablet"> Infrastructure</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>messages.html"><i class="fa-icon-envelope"></i><span class="hidden-tablet"> Messages</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>tasks.html"><i class="fa-icon-tasks"></i><span class="hidden-tablet"> Tasks</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>ui.html"><i class="fa-icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>widgets.html"><i class="fa-icon-dashboard"></i><span class="hidden-tablet"> Widgets</span></a></li>
-            <li>
-                <a class="dropmenu" href="#"><i class="fa-icon-folder-close-alt"></i><span class="hidden-tablet"> Dropdown</span></a>
-                <ul>
-                    <li><a class="submenu" href="submenu1.html"><i class="fa-icon-file-alt"></i><span class="hidden-tablet"> Sub Menu 1</span></a></li>
-                    <li><a class="submenu" href="submenu2.html"><i class="fa-icon-file-alt"></i><span class="hidden-tablet"> Sub Menu 2</span></a></li>
-                    <li><a class="submenu" href="submenu3.html"><i class="fa-icon-file-alt"></i><span class="hidden-tablet"> Sub Menu 3</span></a></li>
-                </ul>
-            </li>
-            <li><a href="<?php echo(THEME_PATH); ?>form.html"><i class="fa-icon-edit"></i><span class="hidden-tablet"> Forms</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>chart.html"><i class="fa-icon-list-alt"></i><span class="hidden-tablet"> Charts</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>typography.html"><i class="fa-icon-font"></i><span class="hidden-tablet"> Typography</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>gallery.html"><i class="fa-icon-picture"></i><span class="hidden-tablet"> Gallery</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>table.html"><i class="fa-icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>calendar.html"><i class="fa-icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>file-manager.html"><i class="fa-icon-folder-open"></i><span class="hidden-tablet"> File Manager</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>icon.html"><i class="fa-icon-star"></i><span class="hidden-tablet"> Icons</span></a></li>
-            <li><a href="<?php echo(THEME_PATH); ?>login.html"><i class="fa-icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>
-        </ul>
-    </div>
-</div>
-<a id="main-menu-toggle" class="hidden-phone open"><i class="fa-icon-reorder"></i></a>
 <!-- end: Main Menu -->
 
 <noscript>
@@ -349,67 +156,40 @@
 </noscript>
 
 <!-- start: Content -->
-<div id="content" class="span11">
+<div id="content" class="span12">
 
 
-<div class="row-fluid">
+<div class="row-fluid span12">
 
     <div class="stats-date span3">
-        <div>Monthly Statistics</div>
-        <div class="range">02/10/2012 - 02/11/2012</div>
+        <div>Activity Graph</div>
+        <div class="range">Today</div>
     </div>
 
-    <div class="stats span9">
+    <div class="stats span8">
 
         <div class="stat">
             <div class="left">
-                <div class="number green">1.324.996</div>
-                <div class="title"><span class="color green"></span> Visits</div>
+                <div class="number green">23</div>
+                <div class="title"><span class="color green"></span>All Calls</div>
             </div>
             <div class="right">
                 <div class="arrow">
                     <img src="<?php echo(THEME_PATH); ?>img/uparrow.png">
                 </div>
-                <div class="percent">+13%</div>
+                <div class="percent">+8%</div>
             </div>
         </div>
-
         <div class="stat">
             <div class="left">
-                <div class="number yellow">12.894.765</div>
-                <div class="title"><span class="color yellow"></span> Pageviews</div>
-            </div>
-            <div class="right">
-                <div class="arrow">
-                    <img src="<?php echo(THEME_PATH); ?>img/uparrow.png">
-                </div>
-                <div class="percent">+17%</div>
-            </div>
-        </div>
-
-        <div class="stat">
-            <div class="left">
-                <div class="number blue">432.980</div>
-                <div class="title"><span class="color blue"></span>Visitors</div>
+                <div class="number blue">432</div>
+                <div class="title"><span class="color blue"></span>All Texts</div>
             </div>
             <div class="right">
                 <div class="arrow">
                     <img src="<?php echo(THEME_PATH); ?>img/downarrow.png">
                 </div>
-                <div class="percent">-33%</div>
-            </div>
-        </div>
-
-        <div class="stat">
-            <div class="left">
-                <div class="number red">11.324</div>
-                <div class="title"><span class="color red"></span>New Visitors</div>
-            </div>
-            <div class="right">
-                <div class="arrow">
-                    <img src="<?php echo(THEME_PATH); ?>img/uparrow.png">
-                </div>
-                <div class="percent">+3%</div>
+                <div class="percent">-12%</div>
             </div>
         </div>
 
@@ -424,309 +204,40 @@
 </div>
 
 <hr>
-
-<div class="row-fluid">
-
-<div class="widget span5" onTablet="span12" onDesktop="span5">
-
-    <h2><span class="glyphicons globe"><i></i></span> Demographics</h2>
-
-    <hr>
-
-    <div class="content">
-
-        <div class="verticalChart">
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>37%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">US</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>16%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">PL</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>12%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">GB</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>9%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">DE</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>7%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">NL</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>6%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">CA</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>5%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">FI</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>4%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">RU</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>3%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">AU</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>1%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">N/A</div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div><!--/span-->
-
-<div class="widget span3 noMargin" onTablet="span6" onDesktop="span3">
-
-    <h2><span class="glyphicons pie_chart"><i></i></span> Browsers</h2>
-
-    <hr>
-
-    <div class="content">
-
-        <div class="browserStat big">
-            <img src="<?php echo(THEME_PATH); ?>img/browser-chrome-big.png" alt="Chrome">
-            <span>34%</span>
-        </div>
-        <div class="browserStat big">
-            <img src="<?php echo(THEME_PATH); ?>img/browser-firefox-big.png" alt="Firefox">
-            <span>34%</span>
-        </div>
-        <div class="browserStat">
-            <img src="<?php echo(THEME_PATH); ?>img/browser-ie.png" alt="Internet Explorer">
-            <span>34%</span>
-        </div>
-        <div class="browserStat">
-            <img src="<?php echo(THEME_PATH); ?>img/browser-safari.png" alt="Safari">
-            <span>34%</span>
-        </div>
-        <div class="browserStat">
-            <img src="<?php echo(THEME_PATH); ?>img/browser-opera.png" alt="Opera">
-            <span>34%</span>
-        </div>
-
-
-    </div>
 </div>
-
-<div class="widget span4" onTablet="span6" onDesktop="span4">
-    <h2><span class="glyphicons charts"><i></i></span> Weekly Stat</h2>
-
-    <hr>
-
-    <div class="content">
-        <div class="sparkLineStats">
-
-            <ul class="unstyled">
-
-                <li><span class="sparkLineStats3"></span>
-                    Pageviews:
-                    <span class="number">781</span>
-                </li>
-                <li><span class="sparkLineStats4"></span>
-                    Pages / Visit:
-                    <span class="number">2,19</span>
-                </li>
-                <li><span class="sparkLineStats5"></span>
-                    Avg. Visit Duration:
-                    <span class="number">00:02:58</span>
-                </li>
-                <li><span class="sparkLineStats6"></span>
-                    Bounce Rate: <span class="number">59,83%</span>
-                </li>
-                <li><span class="sparkLineStats7"></span>
-                    % New Visits:
-                    <span class="number">70,79%</span>
-                </li>
-                <li><span class="sparkLineStats8"></span>
-                    % Returning Visitor:
-                    <span class="number">29,21%</span>
-                </li>
-
-            </ul>
-
-        </div><!-- End .sparkStats -->
-    </div>
-</div><!--/span-->
-
-</div>
-
-<hr>
-
-<div class="row-fluid">
-
-    <div class="widget span6" onTablet="span6" onDesktop="span6">
-        <h2><span class="glyphicons facebook"><i></i></span>Facebook Fans</h2>
-        <hr>
-        <div class="content">
-            <div id="facebookChart" style="height:300px;overflow:hidden;" ></div>
-        </div>
-    </div><!--/span-->
-
-    <div class="widget span6" onTablet="span6" onDesktop="span6">
-        <h2><span class="glyphicons twitter"><i></i></span>Twitter Followers</h2>
-        <hr>
-        <div class="content">
-            <div id="twitterChart" style="height:300px;overflow:hidden;" ></div>
-        </div>
-    </div><!--/span-->
-
-</div>
-
-
-
-
-</div>
-<!-- end: Content -->
-
 <!-- start: Widgets Area -->
 <div id="widgets-area" class="span2 hidden-tablet hidden-phone">
-
-    <ul class="nav tab-menu nav-tabs" id="myTab">
-        <li class="active"><a href="#charts"><i class="fa-icon-bar-chart"></i></a></li>
-        <li><a href="#users"><i class="fa-icon-group"></i></a></li>
-        <li><a href="#messages"><i class="fa-icon-envelope"></i></a></li>
-        <li><a id="close-widgets-area" href="#"><i class="fa-icon-signin"></i></a></li>
-    </ul>
-
     <div id="myTabContent" class="tab-content">
         <div class="tab-pane active" id="charts">
 
             <div class="bar-stat">
-                <span class="title">Account balance</span>
-                <span class="value">$19 999,99</span>
-                <span class="chart green">7,3,2,6,6,3,9,0,1,4</span>
+                <span class="title">All Time Calls</span>
+                <span class="value">342</span>
+                <span class="chart yellow">1,2,3,4,5,5,6,7,8,8</span>
             </div>
 
             <hr>
 
             <div class="bar-stat">
-                <span class="title">Clients</span>
-                <span class="value">1278</span>
-                <span class="chart yellow">8,2,5,4,7,4,7,2,5,9</span>
+                <span class="title">All Outgoing Calls</span>
+                <span class="value">76</span>
+                <span class="chart blue">1,2,3,4,5,5,6,7,8,8</span>
             </div>
 
             <hr>
 
             <div class="bar-stat">
-                <span class="title">Orders</span>
-                <span class="value">5876</span>
-                <span class="chart blue">2,4,6,8,3,5,9,3,2,2</span>
+                <span class="title">Answered Calls</span>
+                <span class="value">125</span>
+                <span class="chart green">2,4,6,8,3,5,9,3,2,2</span>
             </div>
 
             <hr>
 
             <div class="bar-stat">
-                <span class="title">Messages</span>
-                <span class="value">673</span>
-                <span class="chart red">0,3,3,8,3,3,2,7,8,4</span>
+                <span class="title">Missed Calls</span>
+                <span class="value">34</span>
+                <span class="chart red">0,3,3,2,4,3,4,7,8,4</span>
             </div>
 
             <hr>
@@ -736,29 +247,16 @@
             <ul class="progress-bars">
 
                 <li>
-                    <span class="title">Free Memory</span>
+                    <span class="title">All Calls Answered</span>
                     <span class="percent"></span>
-                    <div class="taskProgress progressSlim progressGreen">80</div>
+                    <div class="taskProgress progressSlim progressGreen">85</div>
                 </li>
 
                 <li>
-                    <span class="title">Free HDD Drive</span>
+                    <span class="title">Contact Coverage</span>
                     <span class="percent"></span>
-                    <div class="taskProgress progressSlim progressYellow">20</div>
+                    <div class="taskProgress progressSlim progressYellow">18</div>
                 </li>
-
-                <li>
-                    <span class="title">Free SSD Drive</span>
-                    <span class="percent"></span>
-                    <div class="taskProgress progressSlim progressBlue">57</div>
-                </li>
-
-                <li>
-                    <span class="title">Transfer</span>
-                    <span class="percent"></span>
-                    <div class="taskProgress progressSlim progressRed">45</div>
-                </li>
-
             </ul>
 
         </div>
@@ -769,7 +267,7 @@
                     <a href="#">
                         <span class="status active"></span>
                         <span class="avatar"><img class="img-circle" src="<?php echo(THEME_PATH); ?>img/avatar.jpg" alt="Avatar"></span>
-                        <span class="name">Łukasz Holeczek</span>
+                        <span class="name">?ukasz Holeczek</span>
                     </a>
                 </li>
                 <li>
@@ -812,7 +310,7 @@
                 <li>
                     <a href="#">
                         <div class="avatar"><img class="img-circle" src="<?php echo(THEME_PATH); ?>img/avatar.jpg" alt="Avatar"></div>
-                        <span class="name">Łukasz Holeczek</span>
+                        <span class="name">?ukasz Holeczek</span>
                         <span class="date">25/6/2013</span>
                         <span class="title">Custom Bootstrap design for new client</span>
                     </a>
@@ -859,8 +357,226 @@
 
 </div>
 <!-- end: Widgets Area -->
+<div id="content" class="span12">
+<div class="row-fluid">
 
-<a id="widgets-area-button" class="hidden-tablet hidden-phone open"><i class="fa-icon-reorder"></i></a>
+<div class="widget span7" onTablet="span12" onDesktop="span7">
+
+    <h2><span class="glyphicons globe"><i></i></span>Most Contacted - By Calls</h2>
+
+    <hr>
+
+    <div class="content">
+
+        <div class="verticalChart">
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>37%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">James Hardi</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>16%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Phil Sturgeon</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>12%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Paul Maney</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>9%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Stephen King</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>7%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Chase Ijams</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>6%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Wes Jordan</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>5%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Colin Stewart</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>4%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Wolgang Lampke</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>3%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Mom</div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span>1%</span>
+                    </div>
+
+                </div>
+
+                <div class="title">Caleb Lawson</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div><!--/span-->
+
+<div class="box span5 noMargin" ontablet="span12" ondesktop="span5">
+    <h2><i class="halflings-icon info-sign"></i><span class="break"></span>You Should Try...</h2>
+    <div class="box-content">
+        <div class="todo">
+            <ul class="todo-list">
+                <li>
+                    Windows Phone 8 App <span class="label label-important">today</span>
+														<span class="todo-actions">
+															<a href="#"><i class="halflings-icon ok"></i></a>
+															<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+														</span>
+                </li>
+                <li>New frontend layout <span class="label label-important">today</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+                <li>Hire developers <span class="label label-warning">tommorow</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+                <li>Windows Phone 8 App <span class="label label-warning">tommorow</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+                <li>New frontend layout <span class="label label-success">this week</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+                <li>Hire developers <span class="label label-success">this week</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+                <li>New frontend layout <span class="label label-info">this month</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+                <li>Hire developers <span class="label label-info">this month</span>
+													<span class="todo-actions">
+														<a href="#"><i class="halflings-icon ok"></i></a>
+														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
+													</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- end: Content -->
 </div><!--/fluid-row-->
 
 <div class="modal hide fade" id="myModal">
@@ -881,8 +597,8 @@
 
 <footer>
     <p>
-        <span style="text-align:left;float:left">&copy; 2013 <a href="http://bootstrapmaster.com" alt="Bootstrap Themes">creativeLabs</a></span>
-        <span class="hidden-phone" style="text-align:right;float:right">Powered by: <a href="http://admintemplates.co" alt="Bootstrap Admin Templates">ACME Dashboard</a></span>
+        <span style="text-align:left;float:left">&copy; 2013 <a href="#" alt="Social Insight">Rafiki</a></span>
+        <span class="hidden-phone" style="text-align:right;float:right">Rafiki - Social Insight Engine</span>
     </p>
 </footer>
 
@@ -948,7 +664,7 @@
 
 <script src="<?php echo(THEME_PATH); ?>js/retina.js"></script>
 
-<script src="<?php echo(THEME_PATH); ?>js/core.min.js"></script>
+<script src="<?php echo(THEME_PATH); ?>js/core.js"></script>
 
 <script src="<?php echo(THEME_PATH); ?>js/charts.js"></script>
 

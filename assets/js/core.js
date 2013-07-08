@@ -73,7 +73,26 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	
 	var startFunctions = true;
-	
+
+  openSideWidgets();
+  function openSideWidgets(){
+    $(this).removeClass('open').addClass('close');
+
+    var span = $('#content').attr('class');
+    var spanNum = parseInt(span.replace( /^\D+/g, ''));
+    var newSpanNum = spanNum - 2;
+    var newSpan = 'span' + newSpanNum;
+
+    $('#content').removeClass('span'+spanNum);
+    $('#content').addClass(newSpan);
+    $('#widgets-area').fadeIn();
+
+    if(startFunctions) {
+      widget_area_functions();
+      startFunctions = false;
+    }
+
+  }
 	$('#widgets-area-button').click(function(){
 		
 		if($(this).hasClass('open')){
